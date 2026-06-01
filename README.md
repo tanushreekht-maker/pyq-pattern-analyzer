@@ -3,29 +3,19 @@
 
 # 🚀 Project Title
 
-> A one-line tagline or mission statement for your project.
-
+>  PYQ Pattern Analyzer
 ---
 
 ## 📌 Problem & Domain
+Learning & Knowledge Systems 
 
-Describe the problem you are solving.
+I am building a Previous Year Question (PYQ) Pattern Analyzer for Indian university students, specifically targeting undergraduate engineering students preparing for semester exams. The tool allows students to input previous year exam questions from their subjects, and the application uses AI to identify frequently appearing topics, tag them by priority, and generate a personalized high-weightage study list. It is being built using Base44 as part of HACKHAZARDS '26.
+I plan to integrate Sarvam's API to allow students to interact with the tool in Hindi or Bengali, which is critical for students in tier 2 and tier 3 colleges across India who are not comfortable with English-only interfaces. Sarvam credits will be used to make API calls for regional language input processing and generating explanations of identified important topics in the student's preferred Indian language.
 
-**Themes Selected (at least one):**
-- [ ] Human Experience & Productivity  
-- [ ] Climate & Sustainability Systems  
-- [ ] HealthTech & Bio Platforms  
+Theme Selected :
 - [ ] Learning & Knowledge Systems  
-- [ ] Work, Finance & Digital Economy  
-- [ ] Infrastructure, Mobility & Smart Systems  
-- [ ] Trust, Identity & Security  
-- [ ] Media, Social & Interactive Platforms  
-- [ ] Public Systems, Governance and Civic Tech  
-- [ ] Developer Tools & Software Infrastructure  
 
-*(You can select multiple themes if applicable)*
-
----
+ 
 
 ## 🎯 Objective
 
@@ -40,13 +30,10 @@ Clearly describe:
 ## 🧠 Team & Approach
 
 ### Team Name:  
-`Your team name here`
+` LONE LEARNER`
 
 ### Team Members:  
-- Name 1 (GitHub / LinkedIn / Role)  
-- Name 2  
-- Name 3
-- Name 4
+- Name 1 -MONOMOY DIKSHIT (GitHub / LinkedIn / Role)  
 
 ### Your Approach:
 - Why you chose this problem  
@@ -76,8 +63,6 @@ Clearly describe:
 
 Select if your project participates in any track:
 
-- [ ] **Expo Track** – Built using Expo  
-- [ ] **Neo4j Track** – Uses AuraDB as primary database  
 - [ ] **Base44 Track** – Prototype/Final Product built using Base44  
 
 Provide a short note on how you used the partner technology:
