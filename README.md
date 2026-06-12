@@ -1,140 +1,122 @@
 <img width="4320" height="1440" alt="hh26 main poster 2 with sponsors 3x1 (4320 x 1440 px) (2)" src="https://github.com/user-attachments/assets/c698b2cd-da84-4cb0-9276-125c6a7244aa" />
 
+# 🚀 PYQ Pattern Analyzer
 
-# 🚀 Project Title
+> Smart Study Planner for Indian Engineering Students
 
->  PYQ Pattern Analyzer
 ---
 
 ## 📌 Problem & Domain
-Learning & Knowledge Systems 
 
-I am building a Previous Year Question (PYQ) Pattern Analyzer for Indian university students, specifically targeting undergraduate engineering students preparing for semester exams. The tool allows students to input previous year exam questions from their subjects, and the application uses AI to identify frequently appearing topics, tag them by priority, and generate a personalized high-weightage study list. It is being built using Base44 as part of HACKHAZARDS '26.
-I plan to integrate Sarvam's API to allow students to interact with the tool in Hindi or Bengali, which is critical for students in tier 2 and tier 3 colleges across India who are not comfortable with English-only interfaces. Sarvam credits will be used to make API calls for regional language input processing and generating explanations of identified important topics in the student's preferred Indian language.
+**Theme Selected:**
+- [x] Learning & Knowledge Systems
 
-Theme Selected :
-- [ ] Learning & Knowledge Systems  
+Indian engineering students preparing for semester exams often waste time studying low-weightage topics while missing high-frequency ones. There is no tool that analyzes previous year question papers and tells students exactly what to prioritize. This problem is even worse for students in tier 2 and tier 3 colleges who are not comfortable with English-only study tools.
 
- 
+---
 
 ## 🎯 Objective
 
-What problem does your project solve, and who does it serve?  
-Clearly describe:
-- The target users  
-- The pain point  
-- The value your solution provides  
+**Target Users:** Undergraduate engineering students in India preparing for semester exams.
+
+**Pain Point:** Students do not know which topics appear most frequently in their exams and end up studying everything equally, wasting precious time before exams.
+
+**Value Provided:** The PYQ Pattern Analyzer lets students paste or upload previous year questions, uses AI to identify recurring topics, and ranks them as High, Medium, or Low priority based on frequency. Students can also ask concept-related doubts in Hindi or Bengali and get responses in their own language.
 
 ---
 
 ## 🧠 Team & Approach
 
-### Team Name:  
-` LONE LEARNER`
+### Team Name:
+`LONE LEARNER`
 
-### Team Members:  
-- Name 1 -MONOMOY DIKSHIT (GitHub / LinkedIn / Role)  
+### Team Members:
+- Monomoy Dikshit – Solo participant, 2nd semester CSE student at AOT (MAKAUT University)
 
 ### Your Approach:
-- Why you chose this problem  
-- Key challenges you addressed  
-- Any pivots, iterations, or breakthroughs  
+- Chose this problem because I face it personally as an engineering student preparing for semester exams
+- Key challenge was making AI-powered topic extraction accurate and meaningful from raw pasted text or uploaded PDFs
+- Added multilingual support (Hindi and Bengali) to make the tool accessible to students across India who are not comfortable with English-only interfaces
+- Built entirely using Base44 for rapid prototyping under time constraints
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Core Technologies Used:
-- Frontend:
-- Backend:
-- Database:
-- APIs:
-- Hosting:
+- Frontend: Base44 (React-based generated UI)
+- Backend: Base44 built-in backend
+- Database: Base44 built-in database
+- APIs: Base44 built-in AI (InvokeLLM)
+- Hosting: Base44 (base44.app)
 
-### Additional Technologies Used (Optional):
-- [ ] AI / ML  
-- [ ] Web3 / Blockchain  
-- [ ] Cyber Security 
-- [ ] Cloud  
+### Additional Technologies Used:
+- [x] AI / ML
 
 ---
 
-## 🏆 Sponsored Track (Optional)
+## 🏆 Sponsored Track
 
-Select if your project participates in any track:
+- [x] **Base44 Track** – Prototype/Final Product built using Base44
 
-- [ ] **Base44 Track** – Prototype/Final Product built using Base44  
-
-Provide a short note on how you used the partner technology:
-
-> _Explain your implementation here_
+> The entire application is built and deployed on Base44. Base44 handles the frontend, backend, database, AI integration, and hosting. The app uses Base44's InvokeLLM for topic extraction, priority tagging, and multilingual AI chat.
 
 ---
 
 ## ✨ Key Features
 
-Highlight the most important features of your project:
-
-- ✅ Feature 1  
-- ✅ Feature 2  
-- ✅ Feature 3  
-- ✅ Feature 4  
-
-*(Add images, GIFs, or screenshots if helpful)*
+- ✅ Upload PDFs or paste raw text of previous year questions
+- ✅ AI analyzes questions and ranks topics as High, Medium, or Low priority based on frequency
+- ✅ Multilingual AI Study Assistant — ask doubts in English, Hindi, or Bengali
+- ✅ Save and revisit past analyses organized by subject and exam year
+- ✅ Per-user authentication — every student's data is private and isolated
+- ✅ Feedback system for users to rate their experience
 
 ---
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link (Mandatory):** [Paste link]  
-- **Deployment Link (Recommended):** [Paste link]  
-- **Pitch Deck / PPT (Optional):** [Paste link]  
+- **Demo Video Link (Mandatory):** [To be added before June 30]
+- **Deployment Link:** https://heavenly-exam-intel-path.base44.app
+- **Pitch Deck / PPT:** [To be added before June 30]
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] All team members completed the mandatory social task  
-- [ ] Bonus Task 1 – Badge sharing  
-- [ ] Bonus Task 2 – Blog/article  
-
-*(Refer to Participant Manual for details)*
+- [x] All team members completed the mandatory social task
+- [x] Bonus Task 1 – Badge sharing on social media
+- [ ] Bonus Task 2 – Blog/article (to be published before June 30)
 
 ---
 
 ## 🧪 How to Run the Project
 
-### Requirements:
-- List dependencies (Node.js, Python, etc.)
-- API keys (if any)
-- Environment setup
+The project is fully deployed and accessible at:
+https://heavenly-exam-intel-path.base44.app
 
-### Local Setup:
-```bash
-Add the steps required to run this project locally
-```
+No local setup required. Simply visit the link, create an account, and start analyzing your previous year questions.
+
 ---
 
 ## 🧬 Future Scope
 
-List improvements, extensions, or follow-up features:
-
-- 📈 More integrations  
-- 🛡️ Security enhancements  
-- 🌐 Localization / broader accessibility  
+- 📈 Sarvam AI API integration for deeper regional language support
+- 🛡️ Export analyzed study list as PDF
+- 🌐 Support for more engineering branches and universities
+- 📊 Visual topic frequency charts and trend analysis across years
 
 ---
 
 ## 📎 Resources / Credits
 
-- APIs or datasets used  
-- Open source libraries or tools referenced  
-- Acknowledgements  
+- Built with Base44 — https://base44.com
+- HACKHAZARDS '26 by NAMESPACE Community
 
 ---
 
 ## 🏁 Final Words
 
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+Built this solo as a 2nd semester CSE student while juggling semester exam preparation. The problem is something I personally face every exam season. If this tool helps even a few students study smarter and stress less before exams, it was worth building.
 
 ---
